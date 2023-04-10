@@ -2,9 +2,10 @@
     box-sizing: border-box;
 }
 :root{
-    --color-primary: #fff;
+    --color-primary: #FE5A02;
     --body-color: #020202;
-    --grey--color: #E1E1E1;
+    --grey-color: #E1E1E1;
+    --text-color:#5c5b5b;
 }
 html{
     font-size: 62.5%;
@@ -52,11 +53,24 @@ a{
 .button{
     display: inline-block;
     padding: 1rem 2rem;
-    background: var(--grey--color);
+    background: var(--grey-color);
     text-transform: capitalize;
     border-radius: 30px;
 }
 /* logo */
 .logo{
     width: 3rem;
+}
+/* collapsible */
+.collapsible{
+    display: flex;
+    justify-content: space-between;
+}
+.collapsible__link{
+    color:var(--text-color);
+    transition: .4s;
+    text-transform: capitalize;
+}
+.collapsible__link:hover{
+    color:var(--color-primary);
 }
