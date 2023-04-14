@@ -13,14 +13,9 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="images/pic.webp" />
     <meta property="og:url" content="" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/css.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script
       src="https://kit.fontawesome.com/621d4341b6.js"
       crossorigin="anonymous"
@@ -43,52 +38,76 @@
         <li><a href="#" class="collapsible__link">cooperation</a></li>
       </ul>
       <img class="logo" src="images/h-logo.webp" alt="" />
-      <div class="button background-grey">contact me</div>
+
+      <a
+        href="https://wa.me/509465119?text=Hello%20programmer%20Hussein%20I'd%20like%20to%20buy%20your%20servise!"
+        target="_blank"
+        class="button background-grey"
+        >contact me</a
+      >
     </nav>
     <!-- personal info -->
     <div class="container info">
       <img
+        data-aos="fade-left"
         class="info__image"
         src="images/pic.webp"
         alt="a human piture"
         srcset="images/pic-mobile.webp 500w, images/pic.webp 800w"
       />
-      <div>
-        <h1 class="info__title">My name</h1>
-        <h1 class="info__title">is Hussein</h1>
-        <p>
-          I am a professional programmer with more than 5 years of experience
-        </p>
-        <div class="button background-primary">Hire me</div>
-        <div class="programming-languages">
-          <div class="card background-light-primary">
-            <p class="card__text">c#</p>
-          </div>
-          <div class="card background-primary">
-            <p class="card__text">java</p>
-          </div>
-          <div class="card background-light-black">
-            <p class="card__text">css</p>
-          </div>
-          <div class="card background-grey">
-            <p class="card__text">html</p>
-          </div>
+      <div class="info__data">
+        <div data-aos="fade-down">
+          <h1 class="info__title">My name</h1>
+          <h1 class="info__title">
+            is <span data-text="Hussein" class="info__name">Hussein</span>
+          </h1>
+          <p class="info__p">
+            I am a professional programmer with more than 5 years of experience
+          </p>
+          <a
+            href="https://wa.me/509465119?text=Hello%20programmer%20Hussein%20I'd%20like%20to%20buy%20your%20servise!"
+            target="_blank"
+            class="button background-primary"
+            >Hire me</a
+          >
+        </div>
+        <div class="programming-languages" data-aos="fade-up">
+          <div class="card__programming background-light-primary">c#</div>
+          <div class="card__programming background-primary">java</div>
+          <div class="card__programming background-light-black">css</div>
+          <div class="card__programming background-grey">html</div>
         </div>
       </div>
     </div>
     <!-- latest projects -->
-    <div class="latest-projects__heading container">
+    <div class="latest-projects__heading container" data-aos="fade-right">
       <h2 class="latest-projects__title">Latest projects</h2>
       <p class="latest-projects--p">All projects</p>
       <i class="fa-solid fa-sliders button latest-projects--icon"></i>
     </div>
-    <div class="projects container">
-      <div class="project__01">
-        <div class="card__project background-grey">
-          <div class="card background-light-black project__number">01</div>
+    <div class="projects container" data-aos="zoom-out">
+      <div class="project--card-container">
+        <div class="project__card project--card__1">
+          <div class="project__card-number">01</div>
         </div>
-        <p>space age 60</p>
+        <p class="project__card-p">project name</p>
+      </div>
+      <div class="project--card-container">
+        <div class="project__card project--card__2">
+          <div class="project__card-number">02</div>
+        </div>
+        <p class="project__card-p">project name</p>
+      </div>
+      <div class="project--card-container">
+        <div class="project__card project--card__3">
+          <div class="project__card-number">03</div>
+        </div>
+        <p class="project__card-p">project name</p>
       </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
