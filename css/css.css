@@ -302,25 +302,33 @@ a{
     padding: 1rem 0;
 }
 .project__card-p{
+    color: var(--body-color);
     font-size: 2rem;
     text-transform: capitalize;
     font-weight: 400;
+    text-decoration: underline;
+}
+.project__card-p p{
+    font-size: .5rem;
 }
 .project--card__1{
     position: relative;
-    background-image: url(/images/OIP.jpg);
+    background-image: url(/images/project_1-icon.webp);
+    background-size: cover;
     margin-bottom: 1rem;
 }
 .project--card__2{
     position: relative;
-    background-image: url(/images/OIP.jpg);
+    background-image: url(/images/project_2-icon.webp);
+    background-size: cover;
     top: 4rem;
     margin-bottom: 5rem;
 
 }
 .project--card__3{
     position: relative;
-    background-image: url(/images/OIP.jpg);
+    background-image: url(/images/project_3-icon.webp);
+    background-size: cover;
     top: 8rem;
     margin-bottom: 9rem;
 }
@@ -371,7 +379,9 @@ font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 .project__card-number{
-    font-size: 3rem;
+    font-size: 2rem;
+    width: 15%;
+    height: 20%;
 }
 .project__card-p{
     font-size: 2rem;
