@@ -201,7 +201,7 @@ a{
 .info__name{
     position: relative;
     background-color: var(--color-light-black);
-    font-weight: 900;
+    font-weight: 700;
     color: var(--color-light-black);
 }
 .info__name::before{
