@@ -93,12 +93,7 @@ a{
     color: #fff;
     background-color:var(--color-light-black);
 }
-@media screen and (max-width:500px) {
-    .button{
-        padding: .5rem 1rem;
-        font-size: .5rem;
-    }
-}
+
 /* logo */
 .logo{
     width: 3rem;
