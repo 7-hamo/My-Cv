@@ -219,11 +219,21 @@ a{
     font-size: 1.5rem;
     text-transform: uppercase;
 }
+.info__title{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.info__title h1{
+    margin: 0;
+}
 .info__name{
     position: relative;
     background-color: var(--color-light-black);
     font-weight: 700;
     color: var(--color-light-black);
+    margin: 0;
 }
 .info__name::before{
     content: attr(data-text);
