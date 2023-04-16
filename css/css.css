@@ -189,7 +189,7 @@ a{
 }
 .info--image__card{
     display: inline-block;
-    padding: .5rem 2rem;
+    padding: .5rem 1rem;
     width: 12rem;
     height: 6rem;
     border-radius: 10px;
