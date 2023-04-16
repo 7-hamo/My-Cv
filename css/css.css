@@ -21,8 +21,6 @@ body{
     font-family: 'Bai Jamjuree', sans-serif;
     color: var(--body-color);
     font-size: 1rem;
-}
-body{
     max-width: 100%;
     overflow-x: hidden;
 }
