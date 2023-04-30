@@ -16,6 +16,10 @@ html{
     max-width: 900px;
     margin: 0 auto;
 }
+.pic--fix__ratio{
+    width: 100%;
+    height: auto;
+}
 /* typography */
 body{
     font-family: 'Bai Jamjuree', sans-serif;
