@@ -314,6 +314,13 @@ a{
     justify-content: space-between;
     height: 40rem;
 }
+.projects2{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 40rem;
+}
 .project--card-container{
     width: 29%;
     min-width: 150px;
@@ -367,6 +374,26 @@ a{
     top: 8rem;
     margin-bottom: 9rem;
 }
+.project--card__4{
+    position: relative;
+    background-image: url(/images/turizm.jpg);
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+.project--card__5{
+    position: relative;
+    background-image: url(/images/quran.jpg);
+    background-size: cover;
+    top: 4rem;
+    margin-bottom: 5rem;
+}
+.project--card__6{
+    position: relative;
+    background-image: url(/images/coming-soon.jpg);
+    background-size: cover;
+    top: 8rem;
+    margin-bottom: 9rem;
+}
 @media screen and (max-width:700px) {
 .project__card {
  height: 30%; 
@@ -388,6 +415,13 @@ font-size: 1.5rem;
     margin-top: 3rem;
 }
 .projects{
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.projects2{
     flex-direction: column;
     height: 100vh;
     justify-content: space-between;
