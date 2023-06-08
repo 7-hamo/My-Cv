@@ -348,14 +348,13 @@ a{
     font-size: 2rem;
     text-transform: capitalize;
     font-weight: 400;
-    text-decoration: underline;
 }
 .project__card-p p{
     font-size: .5rem;
 }
 .project--card__1{
     position: relative;
-    background-image: url(/images/project_1-icon.webp);
+    background-image: url(/images/layali.jpg);
     background-size: cover;
     margin-bottom: 1rem;
 }
@@ -389,7 +388,7 @@ a{
 }
 .project--card__6{
     position: relative;
-    background-image: url(/images/coming-soon.jpg);
+    background-image: url(/images/rescu-game.webp);
     background-size: cover;
     top: 8rem;
     margin-bottom: 9rem;
